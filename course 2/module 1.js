@@ -27,6 +27,12 @@ for (var i = 1; i <= 10; i++){
             console.log("Bronze medal");
             break;
         default:
-            console.log(i)
+            console.log(Math.random())
     }
 }
+
+a = function(){
+    console.log("f1");
+}
+
+a();
